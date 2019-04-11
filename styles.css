@@ -53,13 +53,55 @@
 
 .container
 {
-    margin: 0px;
-    border:0px;
-    padding: 0px;
     display: flex;
     justify-content: center;
 }
 .bd-example
 {
     border: 1.5px solid gray;
+}
+
+/*BICHOS*/
+
+.titleBichos
+{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.bichos
+{
+    width: 100%;
+    margin: 9px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bicuna
+{   
+    margin: 9px;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.lobo
+{
+    margin: 9px;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.cat
+{
+    margin: 9px;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
 }
