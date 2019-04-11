@@ -1,16 +1,17 @@
 /*ENCABEZADO*/
+
 .header
 {
     height: 54px;
     background-color:black;
-    margin: 0px;
+    margin: 18px;
     padding: 0px;
 }
 
 .menu
 {
     height: inherit;
-    margin: inherit;
+    margin: 0px;
     padding: inherit;
 }
 
@@ -24,7 +25,7 @@
 
 .header ol
 {
-    height: inherit;
+    height: 54px;
     list-style: none;
     text-decoration: none;
     display: flex;
@@ -49,9 +50,16 @@
 }
 
 /*CARRUSEL*/
+
 .container
 {
-    margin: 15px;
+    margin: 0px;
+    border:0px;
+    padding: 0px;
     display: flex;
     justify-content: center;
+}
+.bd-example
+{
+    border: 1.5px solid gray;
 }
