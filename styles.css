@@ -153,3 +153,90 @@
     overflow: hidden;
 }
 
+/*Más bichos*/
+
+.titleMasBichos
+{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: black;
+    color:white;
+}
+
+.masBichos
+{
+    margin: 10px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f8f9f4;
+}
+
+.gracias
+{   
+    border: 1px solid #e2e2e2;
+    margin: 18px;
+    width: 512px;
+    object-fit: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f8f9f4;
+}
+
+.yo
+{   
+    border: 1px solid #e2e2e2;
+    margin: 18px;
+    width: 512px;
+    object-fit: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f8f9f4;
+}
+
+/*FOOTER*/
+
+.footer
+{
+    height: 54px;
+    background-color:black;
+    margin: 18px;
+    padding: 0px;
+}
+
+.menuFooter
+{
+    height: inherit;
+    margin: 0px;
+    padding: inherit;
+}
+
+.footer a
+{
+    height: inherit;
+    margin: inherit;
+    padding: inherit;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.footer ol
+{
+    height: 54px;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer li
+{
+    height: inherit;
+    margin: inherit;
+    padding: inherit;
+}
