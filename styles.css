@@ -1,4 +1,4 @@
-/*ENCABEZADO*/
+/*++++++++++++++++++++ENCABEZADO+++++++++++++++*/
 
 .header
 {
@@ -49,7 +49,7 @@
     align-items: center;
 }
 
-/*CARRUSEL*/
+/*++++++++++++++++++++++CARRUSEL++++++++++++++++++++++++++*/
 
 .titleCarousel
 {
@@ -71,7 +71,7 @@
     border: 1.5px solid gray;
 }
 
-/*BICHOS*/
+/*+++++++++++++++++++++BICHOS++++++++++++++++++++*/
 
 .titleBichos
 {
@@ -153,7 +153,7 @@
     overflow: hidden;
 }
 
-/*Más bichos*/
+/*+++++++++++++++++++++Más bichos+++++++++++++++++++++*/
 
 .titleMasBichos
 {
@@ -168,7 +168,7 @@
 
 .masBichos
 {
-    margin: 10px;
+    margin: 0px;
     padding: 0px;
     display: flex;
     justify-content: space-evenly;
@@ -198,7 +198,61 @@
     background-color: #f8f9f4;
 }
 
-/*FOOTER*/
+/*++++++++++++++++SOCIAL++++++++++++++++++*/
+.contacto
+{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    background-color: #f8f9f4;
+}
+
+.social
+{
+    margin: 10px 100px 10px 50px;
+}
+
+.formulario
+{
+    margin: 10px 30px 10px 100px;
+}
+
+
+.social
+{
+    width: 300px;
+    height: 50px;
+    /*border: 1px solid red;*/
+}
+
+.social-link
+{
+    display: inline-block;
+    justify-content: space-between;
+    width: 50px;
+    height: 50px;
+    /*border: 1px solid red;*/
+}
+
+.social-link.twitter
+{
+    background-image: url("twitter.png");
+    background-size: 50px 50px;
+}
+
+.social-link.facebook
+{
+    background-image: url("facebook.png");
+    background-size: 50px 50px;
+}
+
+.social-link.instagram
+{
+    background-image: url("instagram.png");
+    background-size: 50px 50px;
+}
+
+/*++++++++++++++++++FOOTER+++++++++++++++++++++++*/
 
 .footer
 {
