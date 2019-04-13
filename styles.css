@@ -4,7 +4,7 @@
 {
     height: 54px;
     background-color:black;
-    margin: 18px;
+    margin: 0px;
     padding: 0px;
 }
 
@@ -51,13 +51,22 @@
 
 /*++++++++++++++++++++++CARRUSEL++++++++++++++++++++++++++*/
 
+.carruselWraper
+{
+    margin: 0px;
+    background-color: #f8f9f4;
+}
+
 .titleCarousel
 {
-    height: 70px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 0px;
+    background-color: #f8f9f4;
+}
+
 }
 
 .container
@@ -68,7 +77,9 @@
 }
 .bd-example
 {
-    border: 1.5px solid gray;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    border: 1px solid black;
 }
 
 /*+++++++++++++++++++++BICHOS++++++++++++++++++++*/
@@ -209,14 +220,13 @@
 
 .social
 {
-    margin: 10px 100px 10px 50px;
+    margin: 120px 100px 10px 50px;
 }
 
 .formulario
 {
-    margin: 10px 30px 10px 100px;
+    margin: 120px 30px 10px 100px;
 }
-
 
 .social
 {
@@ -238,6 +248,7 @@
 {
     background-image: url("twitter.png");
     background-size: 50px 50px;
+    
 }
 
 .social-link.facebook
@@ -293,4 +304,9 @@
     height: inherit;
     margin: inherit;
     padding: inherit;
+}
+
+.footerLinks
+{
+    font-size: 15px;
 }
