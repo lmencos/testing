@@ -6,7 +6,6 @@
     background-color:black;
     margin: 0px;
     padding: 0px;
-    font-size: 36px;
     font-family: 'Dokdo', cursive;
 }
 
@@ -23,6 +22,8 @@
     margin: inherit;
     padding: inherit;
     background-color:black;
+    display: flex;
+    font-size: 200%
 }
 
 .header ol
@@ -95,7 +96,7 @@
     margin-top: 20px;
     background-color: black;
     color:white;
-    font-size: 45px;
+    font-size: 35px;
     font-family: 'Dokdo', cursive;
 }
 
