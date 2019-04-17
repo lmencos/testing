@@ -6,6 +6,8 @@
     background-color:black;
     margin: 0px;
     padding: 0px;
+    font-size: 36px;
+    font-family: 'Dokdo', cursive;
 }
 
 .menu
@@ -93,6 +95,8 @@
     margin-top: 20px;
     background-color: black;
     color:white;
+    font-size: 45px;
+    font-family: 'Dokdo', cursive;
 }
 
 .bichos
@@ -175,6 +179,8 @@
     margin-top: 20px;
     background-color: black;
     color:white;
+    font-size: 36px;
+    font-family: 'Dokdo', cursive;
 }
 
 .masBichos
