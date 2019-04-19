@@ -249,17 +249,17 @@
 
 .social
 {
-    margin: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 3px;
 }
 
 .formulario
 {
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 6px 3px;
 }
 
 .social
 {
-    width: 160px;
+    width: 90px;
     height: 50px;
     display:flex;
     align-items: center;
@@ -270,31 +270,31 @@
 {
     display: inline-block;
     justify-content: space-between;
-    width: 33px;
-    height: 33px;
+    width: 27px;
+    height: 27px;
     /*border: 1px solid red;*/
 }
 
 .social-link.twitter
 {
     background-image: url("twitter.png");
-    background-size: 33px 33px;
-    margin: 3px;
+    background-size: 27px 27px;
+    margin: 2px;
     
 }
 
 .social-link.facebook
 {
     background-image: url("facebook.png");
-    background-size: 33px 33px;
-    margin: 3px;
+    background-size: 27px 27px;
+    margin: 2px;
 }
 
 .social-link.instagram
 {
     background-image: url("instagram.png");
-    background-size: 33px 33px;
-    margin:3px;
+    background-size: 27px 27px;
+    margin:2px;
 }
 
 /*++++++++++++++++++FOOTER+++++++++++++++++++++++*/
@@ -370,11 +370,63 @@
         display:block;
         height:auto;
         margin: 6px;
+        font-size: .8em;
     }
+
+    .carruselTitle
+    {
+        font-size:1.2em;
+    }
+        
+    .bichoText
+    {
+        font-size: .72em;
+    }
+
+    .titleBichos a
+    {
+        font-size: .3em;
+        font-weight: 100;
+    }
+
+    .titleMasBichos
+    {
+        font-size: .5em;
+    }
+
 }
 
 @media screen and (max-width: 480px)
 {
+    .bichoName
+    {
+        font-size: 1.5em;
+    }
+
+    .bicuna img
+    {
+        width: 290px;
+    }
+
+    .lobo img
+    {
+        width: 290px;
+    }
+
+    .cat img
+    {
+        width: 290px;
+    }
+
+    .gracias img
+    {
+        width: 290px;
+    }
+
+    .yo img
+    {
+        width: 290px;
+    }
 
 }
 
