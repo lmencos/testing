@@ -467,5 +467,58 @@
 
 @media screen and (max-width: 320px)
 {
+    .bichos, .bicuna
+    {
+        margin: .3em;
+    }
 
+    .bichos, .lobo
+    {
+        margin: .3em;
+    }
+
+    .bichos, .cat
+    {
+        margin: .3em;
+    }
+
+    .masBichos, .gracias
+    {
+        margin: .3em;
+    }
+
+    .masBichos, .yo
+    {
+        margin: .3em;
+    }
+
+    .bichoName
+    {
+        font-size: 1.5em;
+    }
+
+    .bicuna img
+    {
+        width: 100%;
+    }
+
+    .lobo img
+    {
+        width: 100%;
+    }
+
+    .cat img
+    {
+        width: 100%;
+    }
+
+    .gracias img
+    {
+        width: 100%;
+    }
+
+    .yo img
+    {
+        width: 100%;
+    }
 }
