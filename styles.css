@@ -354,11 +354,21 @@
 /*++++++++++++++++++++++RESPONSE DESIGN+++++++++++*/
 /********DESKTOP FIRST*******mayor a menor*********/
 
-@media screen and (max-width: 1023px)
+@media screen and (max-width: 1024px)
 {
-    .bichos
+    .bicuna, .bicunaImage
     {
-  
+        width: 45%;
+    }
+
+    .lobo, .loboImage
+    {
+        width: 45%;
+    }
+
+    .cat, .catImage
+    {
+        width: 45%;
     }
 
 }
@@ -398,6 +408,31 @@
 
 @media screen and (max-width: 480px)
 {
+    .bichos, .bicuna
+    {
+        margin: .3em;
+    }
+
+    .bichos, .lobo
+    {
+        margin: .3em;
+    }
+
+    .bichos, .cat
+    {
+        margin: .3em;
+    }
+
+    .masBichos, .gracias
+    {
+        margin: .3em;
+    }
+
+    .masBichos, .yo
+    {
+        margin: .3em;
+    }
+
     .bichoName
     {
         font-size: 1.5em;
@@ -410,22 +445,22 @@
 
     .lobo img
     {
-        width: 290px;
+        width: 100%;
     }
 
     .cat img
     {
-        width: 290px;
+        width: 100%;
     }
 
     .gracias img
     {
-        width: 290px;
+        width: 100%;
     }
 
     .yo img
     {
-        width: 290px;
+        width: 100%;
     }
 
 }
