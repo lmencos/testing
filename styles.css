@@ -358,17 +358,17 @@
 {
     .bicuna, .bicunaImage
     {
-        width: 45%;
+        width: 100%;
     }
 
     .lobo, .loboImage
     {
-        width: 45%;
+        width: 100%;
     }
 
     .cat, .catImage
     {
-        width: 45%;
+        width: 100%;
     }
 
 }
